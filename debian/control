@@ -1,0 +1,15 @@
+Source: thingylaunch
+Section: x11
+Priority: optional
+Maintainer: snsinfu <snsinfu@gmail.com>
+Build-Depends: debhelper (>= 9), cmake (>=2.8), libx11-dev
+Standards-Version: 4.3.0
+Homepage: http://gahr.ch/thingylaunch/
+
+Package: thingylaunch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Lightweight launcher for X
+ Thingylaunch is a lightweight and fast application launcher for X.
+ Based on the original thinglaunch by Matt Johnston, it is enhanced
+ with navigation keys, history, bookmarks and tab-completion.
